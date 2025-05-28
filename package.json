@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+      "test:dashboard": "cypress run --spec \"cypress/e2e/Dashboard/Dashboard.cy.js\""
+    }
+  
+  
+}
